@@ -1,0 +1,35 @@
+div{
+    word-wrap: normal;
+    text-align: center;
+    background-color:lime;
+}
+
+footer {
+    background-color: lime;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+h1{
+    text-align:center;
+}
+
+span{
+    background-color: lightgreen;
+}
+
+img{
+    width:400px;
+    align-items:center;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+}
+
+body{
+    background-color:black;
+}
