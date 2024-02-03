@@ -1,0 +1,18 @@
+body{
+    background-color: antiquewhite;
+}
+
+
+
+
+div{
+    text-align: center;
+}
+
+.For_RGB {
+    background-color: rgb(255, 0, 0);
+}
+
+.For_HEX {
+    color: red;
+}
