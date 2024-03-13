@@ -1,0 +1,38 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+header{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom:20px;
+    margin-top:20px;
+}
+
+nav{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+    gap:150px;
+    text-decoration: none;
+    margin-top:20px;
+}
+
+button{
+    width:150px;
+    height:50px;
+    border-color:yellow;
+    background-color: white;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    cursor:pointer;
+}
+
+nav a{
+    text-decoration:none;
+    color:gray;
+}
+
