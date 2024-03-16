@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+body{
+    background-color: #f3e6d8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Omelette{
+    width: 700px;
+    background-color: #fff;
+    padding: 30px 25px;
+    margin: 50px 0;
+    border-radius: 13px;
+}
+
+.Omelette img{
+    width: 100%; 
+    border-radius: 13px;
+}
+
+.ingredients h2, .instructions h2, .nutricion h2{
+    color: #854632;
+    font-size: 32px;
+    font-family: 'Young Serif', serif;
+    padding-bottom: 20px;
+}
+
+.Parent h1{
+    font-family: 'Young Serif', sans-serif;
+    color: #302d2c;
+    font-size: 35px;
+    font-weight: 700;
+    margin: 20px 0 0;
+}
+
+.Parent p{
+    margin-bottom: 24px;
+}
+
+.Parent2{
+    list-style: inside;
+    background-color: #fff5fa;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.Parent2 h2{
+    color: #854632;
+    font-size: 25px;
+}
+
+.Parent2 ul{
+    padding:0 10px;
+}
+
+.Parent2 ul li{
+    padding: 10px 0;
+}
+
+.Parent2 ul li strong{
+    color: #302d2c;
+}
+
+.ParentKid1, .Parent2, .ParentKid2{
+    margin-bottom: 27px;
+}
+
+.ParentKid{
+    padding: 20px;
+    border-bottom: 2px solid #e3ded8;
+}
+
+.ParentKid1 ul{
+    list-style: inside;
+}
+
+.ParentKid1 ul li{
+    padding: 10px;
+}
+
+.ParentKid2 ol{
+    list-style: inside;
+}
+
+.ParentKid2 ol li{
+    padding: 10px 5px;
+    font-size: 15px;
+}
+
+.ParentKid2 ol li strong{
+    margin-right: 8px;
+    color: #854632;
+    font-size: 15px;
+}
+
+.Parent3{
+    padding: 10px;
+}
+
+.Consumption{
+    border-bottom: 2px solid #e3ded8;
+}
+.Parent3 .Child{
+    display: flex;
+    align-items:  center;
+    justify-content: space-between;
+}
+
+.Child strong{
+    color: #854632;
+}
+
+.Child p{
+    padding: 10px 0;
+}
+
