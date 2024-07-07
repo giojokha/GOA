@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p id="p1">First paragraph text.</p>
+    <p id="p2">Second paragraph text.</p>
+    <p id="p3">Third paragraph text.</p>
+
+    <button onclick="swapText()">Swap Text</button>
+
+    <script>
+        function swapText() {
+            let paragraph1 = document.getElementById("p1").textContent;
+            let paragraph2 = document.getElementById("p2").textContent;
+            let paragraph3 = document.getElementById("p3").textContent;
+
+            document.getElementById("p1").textContent = paragraph3;
+            document.getElementById("p2").textContent = paragraph1;
+            document.getElementById("p3").textContent = paragraph2;
+        }
+    </script>
+</body>
+
+</html>

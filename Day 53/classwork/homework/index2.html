@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p id="numberDisplay">0</p>
+    <button onclick="subtractOne()">-1</button>
+    <button onclick="resetNumber()">Reset</button>
+    <button onclick="addOne()">+1</button>
+
+    <script>
+        let num = 0;
+
+        function subtractOne() {
+            num--;
+            updateDisplay();
+        }
+
+        function resetNumber() {
+            num = 0;
+            updateDisplay();
+        }
+
+        function addOne() {
+            num++;
+            updateDisplay();
+        }
+
+        function updateDisplay() {
+            document.getElementById("numberDisplay").textContent = num;
+        }
+    </script>
+</body>
+
+</html>

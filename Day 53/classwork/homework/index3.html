@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p id="paragraph1">GOA</p>
+    <p id="paragraph2">BEST</p>
+    <p id="paragraph3">EVER</p>
+
+    <button onclick="changeColor('green')">Make it Green</button>
+    <button onclick="changeColor('red')">Make it Red</button>
+    <button onclick="changeColor('yellow')">Make it Yellow</button>
+
+    <script>
+        function changeColor(color) {
+            let paragraphs = document.getElementsByTagName("p");
+
+            for (let i = 0; i < paragraphs.length; i++) {
+                paragraphs[i].style.color = color;
+            }
+        }
+    </script>
+</body>
+
+</html>
